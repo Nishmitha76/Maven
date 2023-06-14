@@ -9,7 +9,7 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    ignore:
+    @dependabot ignore:
       - dependency-name: "org.springframework.boot:spring-boot-starter-data-jpa"
         versions: ["3.0.x", "3.1.x"]
     # Allow up to 10 open pull requests for pip dependencies
